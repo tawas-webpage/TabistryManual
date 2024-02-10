@@ -27,14 +27,14 @@ nav li {
 
 nav a {
     display: block;
-    color: #ff3399;
+    color: #FF0000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #ff3399;
+    background-color: #FF0000;
     color: black;
 }
 
@@ -45,7 +45,7 @@ nav a:hover {
 .myHeader {
     background-color: black;
     padding: 30px;
-    color: #ff3399;
+    color: #FF0000;
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ nav a:hover {
     left: 0;
     background-color: #000000;
     padding-top: 20px;
-    border-right: 5px solid #ff3399; 
+    border-right: 5px solid #FF0000; 
     overflow-y: auto;
     transition: width 0.3s; 
 
@@ -79,7 +79,7 @@ nav a:hover {
     padding: 25px;
     text-decoration: none;
     font-size: 21px;
-    color: #ff3399;
+    color: #FF0000;
     display: block;
     transition: 0.3s;
 }
@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 .side-menu::-webkit-scrollbar-thumb {
-    background-color: #ff3399; 
+    background-color: #FF0000; 
 }
 
 .side-menu::-webkit-scrollbar-track {

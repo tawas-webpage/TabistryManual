@@ -2,7 +2,11 @@ body {
     margin: 16;
 }
 
-
+.image-container {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 10px; /* Add space between the images */
+}
 
 .header-image {
 background-image: url(“https://i.ibb.co/8xbVM48/Screenshot-2024-01-29-at-18-04-29.png”);
@@ -42,12 +46,76 @@ nav a:hover {
 
 
 
+.navbar {
+   position: fixed;
+    top: 0;
+    margin-left: 222px;
+    margin-right: 40px;
+    width: 83%;
+    background-color: #000000;
+    z-index: 000;
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Add padding to the right for better spacing */
+    border-bottom: 5px solid #FF0000; 
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 90;
+    padding: 60;
+    overflow: hidden;
+    background-color: #000000;
+    color: #FF0000;
+    display: flex; /* Use flexbox for alignment */
+    float: right;
+    font-size: 10px;
+}
+
+
+.navbar ul li {
+    float: left;
+    margin-left: 20px; /* Add margin between the links */
+}
+
+
+.navbar ul li a {
+    display: block;
+    color:  #FF0000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color:  #FF0000;
+    color: #000000;
+}
+
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 90px; /* Adjust based on the height of your navbar */
+}
+
+
 
 .myHeader {
     background-color: black;
-    padding: 30px;
+    padding: 50px;
     color: #FF0000;
     text-align: center;
+    margin-top: 60px;
+    width: 98%;
 }
 
 .sticky {
@@ -108,10 +176,6 @@ nav a:hover {
 
 }
 
-
-
-
-}
 
 .nav-link {
     padding: 15px;
